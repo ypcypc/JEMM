@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jemm"
+version = "0.1.0"
+description = "Server for JEMM"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.12",
+    "torchvision",
+    "transformers>=5.17,<6",
+    "peft>=0.21",
+    "accelerate>=1.15",
+    "huggingface_hub",
+    "numpy",
+    "pillow",
+    "flash-linear-attention>=0.5.2; platform_system == 'Linux'",
+]
+
+[tool.setuptools]
+packages = ["jemm"]
