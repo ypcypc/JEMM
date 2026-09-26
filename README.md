@@ -1,6 +1,8 @@
 # JEMM
 
-**Like [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), but multimodal and open-weight.** JEMM picks one candidate per question and returns a probability for every candidate, from text or text plus a screenshot, on your own GPU.
+**Like [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), but multimodal and open-weight.**
+
+JEMM picks one candidate per question and returns a probability for every candidate, from text or text plus a screenshot, on your own GPU.
 
 JEMM stands for Judgment Engine for MultiModal decisions. This repository serves [JEMM](https://huggingface.co/MaestroYan/JEMM) over HTTP with a Jev-style `POST /v1/systemone` endpoint; the model card shows usage without this server. Needs one CUDA GPU with at least 64 GB. Not affiliated with TypeSafe AI.
 
