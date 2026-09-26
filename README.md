@@ -2,11 +2,11 @@
 
 JEMM stands for Judgment Engine for MultiModal decisions. This repository serves the [JEMM](https://huggingface.co/MaestroYan/JEMM) adapter over HTTP; the model card shows usage without this server. Needs one CUDA GPU with at least 64 GB.
 
+![JEMM vs open Jev-like models](assets/landscape.png)
+
 ![Accuracy of JEMM vs Jev 1.13](assets/accuracy.png)
 
 ![Latency of JEMM vs Jev 1.13](assets/latency.png)
-
-![JEMM vs open Jev-like models](assets/landscape.png)
 
 ## Usage
 
